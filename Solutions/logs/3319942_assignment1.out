@@ -1,0 +1,28 @@
+Job started on Sat Feb 22 11:16:28 MST 2025
+Running on node: notch317
+Log directory: /scratch/general/vast/u1520797/assignment1_project/logs/3319942
+Requirement already satisfied: matplotlib in /uufs/chpc.utah.edu/common/home/u1520797/miniconda3/envs/myenv/lib/python3.8/site-packages (3.7.2)
+Requirement already satisfied: contourpy>=1.0.1 in /uufs/chpc.utah.edu/common/home/u1520797/miniconda3/envs/myenv/lib/python3.8/site-packages (from matplotlib) (1.0.5)
+Requirement already satisfied: cycler>=0.10 in /uufs/chpc.utah.edu/common/home/u1520797/miniconda3/envs/myenv/lib/python3.8/site-packages (from matplotlib) (0.11.0)
+Requirement already satisfied: fonttools>=4.22.0 in /uufs/chpc.utah.edu/common/home/u1520797/miniconda3/envs/myenv/lib/python3.8/site-packages (from matplotlib) (4.51.0)
+Requirement already satisfied: kiwisolver>=1.0.1 in /uufs/chpc.utah.edu/common/home/u1520797/miniconda3/envs/myenv/lib/python3.8/site-packages (from matplotlib) (1.4.4)
+Requirement already satisfied: numpy>=1.20 in /uufs/chpc.utah.edu/common/home/u1520797/miniconda3/envs/myenv/lib/python3.8/site-packages (from matplotlib) (1.24.3)
+Requirement already satisfied: packaging>=20.0 in /uufs/chpc.utah.edu/common/home/u1520797/miniconda3/envs/myenv/lib/python3.8/site-packages (from matplotlib) (24.1)
+Requirement already satisfied: pillow>=6.2.0 in /uufs/chpc.utah.edu/common/home/u1520797/miniconda3/envs/myenv/lib/python3.8/site-packages (from matplotlib) (10.4.0)
+Requirement already satisfied: pyparsing<3.1,>=2.3.1 in /uufs/chpc.utah.edu/common/home/u1520797/miniconda3/envs/myenv/lib/python3.8/site-packages (from matplotlib) (3.0.9)
+Requirement already satisfied: python-dateutil>=2.7 in /uufs/chpc.utah.edu/common/home/u1520797/miniconda3/envs/myenv/lib/python3.8/site-packages (from matplotlib) (2.9.0.post0)
+Requirement already satisfied: importlib-resources>=3.2.0 in /uufs/chpc.utah.edu/common/home/u1520797/miniconda3/envs/myenv/lib/python3.8/site-packages (from matplotlib) (6.4.0)
+Requirement already satisfied: zipp>=3.1.0 in /uufs/chpc.utah.edu/common/home/u1520797/miniconda3/envs/myenv/lib/python3.8/site-packages (from importlib-resources>=3.2.0->matplotlib) (3.20.2)
+Requirement already satisfied: six>=1.5 in /uufs/chpc.utah.edu/common/home/u1520797/miniconda3/envs/myenv/lib/python3.8/site-packages (from python-dateutil>=2.7->matplotlib) (1.16.0)
+Requirement already satisfied: numpy in /uufs/chpc.utah.edu/common/home/u1520797/miniconda3/envs/myenv/lib/python3.8/site-packages (1.24.3)
+Requirement already satisfied: pandas in /uufs/chpc.utah.edu/common/home/u1520797/miniconda3/envs/myenv/lib/python3.8/site-packages (2.0.3)
+Requirement already satisfied: python-dateutil>=2.8.2 in /uufs/chpc.utah.edu/common/home/u1520797/miniconda3/envs/myenv/lib/python3.8/site-packages (from pandas) (2.9.0.post0)
+Requirement already satisfied: pytz>=2020.1 in /uufs/chpc.utah.edu/common/home/u1520797/miniconda3/envs/myenv/lib/python3.8/site-packages (from pandas) (2024.1)
+Requirement already satisfied: tzdata>=2022.1 in /uufs/chpc.utah.edu/common/home/u1520797/miniconda3/envs/myenv/lib/python3.8/site-packages (from pandas) (2023.3)
+Requirement already satisfied: numpy>=1.20.3 in /uufs/chpc.utah.edu/common/home/u1520797/miniconda3/envs/myenv/lib/python3.8/site-packages (from pandas) (1.24.3)
+Requirement already satisfied: six>=1.5 in /uufs/chpc.utah.edu/common/home/u1520797/miniconda3/envs/myenv/lib/python3.8/site-packages (from python-dateutil>=2.8.2->pandas) (1.16.0)
+Requirement already satisfied: python-mnist in /uufs/chpc.utah.edu/common/home/u1520797/miniconda3/envs/myenv/lib/python3.8/site-packages (0.7)
+Your third_degree_polynomial function seems to be returning the expected values
+Your fitting function seems to be returning the expected values
+Your error function seems to be returning the expected values
+Job finished on Sat Feb 22 11:16:34 MST 2025

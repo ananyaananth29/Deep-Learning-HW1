@@ -1,0 +1,205 @@
+Job started on Sat Feb 22 11:10:22 MST 2025
+Running on node: notch317
+Log directory: /scratch/general/vast/u1520797/assignment1_project/logs/3319929
+Requirement already satisfied: matplotlib in /uufs/chpc.utah.edu/common/home/u1520797/miniconda3/envs/myenv/lib/python3.8/site-packages (3.7.2)
+Requirement already satisfied: contourpy>=1.0.1 in /uufs/chpc.utah.edu/common/home/u1520797/miniconda3/envs/myenv/lib/python3.8/site-packages (from matplotlib) (1.0.5)
+Requirement already satisfied: cycler>=0.10 in /uufs/chpc.utah.edu/common/home/u1520797/miniconda3/envs/myenv/lib/python3.8/site-packages (from matplotlib) (0.11.0)
+Requirement already satisfied: fonttools>=4.22.0 in /uufs/chpc.utah.edu/common/home/u1520797/miniconda3/envs/myenv/lib/python3.8/site-packages (from matplotlib) (4.51.0)
+Requirement already satisfied: kiwisolver>=1.0.1 in /uufs/chpc.utah.edu/common/home/u1520797/miniconda3/envs/myenv/lib/python3.8/site-packages (from matplotlib) (1.4.4)
+Requirement already satisfied: numpy>=1.20 in /uufs/chpc.utah.edu/common/home/u1520797/miniconda3/envs/myenv/lib/python3.8/site-packages (from matplotlib) (1.24.3)
+Requirement already satisfied: packaging>=20.0 in /uufs/chpc.utah.edu/common/home/u1520797/miniconda3/envs/myenv/lib/python3.8/site-packages (from matplotlib) (24.1)
+Requirement already satisfied: pillow>=6.2.0 in /uufs/chpc.utah.edu/common/home/u1520797/miniconda3/envs/myenv/lib/python3.8/site-packages (from matplotlib) (10.4.0)
+Requirement already satisfied: pyparsing<3.1,>=2.3.1 in /uufs/chpc.utah.edu/common/home/u1520797/miniconda3/envs/myenv/lib/python3.8/site-packages (from matplotlib) (3.0.9)
+Requirement already satisfied: python-dateutil>=2.7 in /uufs/chpc.utah.edu/common/home/u1520797/miniconda3/envs/myenv/lib/python3.8/site-packages (from matplotlib) (2.9.0.post0)
+Requirement already satisfied: importlib-resources>=3.2.0 in /uufs/chpc.utah.edu/common/home/u1520797/miniconda3/envs/myenv/lib/python3.8/site-packages (from matplotlib) (6.4.0)
+Requirement already satisfied: zipp>=3.1.0 in /uufs/chpc.utah.edu/common/home/u1520797/miniconda3/envs/myenv/lib/python3.8/site-packages (from importlib-resources>=3.2.0->matplotlib) (3.20.2)
+Requirement already satisfied: six>=1.5 in /uufs/chpc.utah.edu/common/home/u1520797/miniconda3/envs/myenv/lib/python3.8/site-packages (from python-dateutil>=2.7->matplotlib) (1.16.0)
+Requirement already satisfied: numpy in /uufs/chpc.utah.edu/common/home/u1520797/miniconda3/envs/myenv/lib/python3.8/site-packages (1.24.3)
+Requirement already satisfied: pandas in /uufs/chpc.utah.edu/common/home/u1520797/miniconda3/envs/myenv/lib/python3.8/site-packages (2.0.3)
+Requirement already satisfied: python-dateutil>=2.8.2 in /uufs/chpc.utah.edu/common/home/u1520797/miniconda3/envs/myenv/lib/python3.8/site-packages (from pandas) (2.9.0.post0)
+Requirement already satisfied: pytz>=2020.1 in /uufs/chpc.utah.edu/common/home/u1520797/miniconda3/envs/myenv/lib/python3.8/site-packages (from pandas) (2024.1)
+Requirement already satisfied: tzdata>=2022.1 in /uufs/chpc.utah.edu/common/home/u1520797/miniconda3/envs/myenv/lib/python3.8/site-packages (from pandas) (2023.3)
+Requirement already satisfied: numpy>=1.20.3 in /uufs/chpc.utah.edu/common/home/u1520797/miniconda3/envs/myenv/lib/python3.8/site-packages (from pandas) (1.24.3)
+Requirement already satisfied: six>=1.5 in /uufs/chpc.utah.edu/common/home/u1520797/miniconda3/envs/myenv/lib/python3.8/site-packages (from python-dateutil>=2.8.2->pandas) (1.16.0)
+Requirement already satisfied: python-mnist in /uufs/chpc.utah.edu/common/home/u1520797/miniconda3/envs/myenv/lib/python3.8/site-packages (0.7)
+Requirement already satisfied: matplotlib in /uufs/chpc.utah.edu/common/home/u1520797/miniconda3/envs/myenv/lib/python3.8/site-packages (3.7.2)
+Requirement already satisfied: contourpy>=1.0.1 in /uufs/chpc.utah.edu/common/home/u1520797/miniconda3/envs/myenv/lib/python3.8/site-packages (from matplotlib) (1.0.5)
+Requirement already satisfied: cycler>=0.10 in /uufs/chpc.utah.edu/common/home/u1520797/miniconda3/envs/myenv/lib/python3.8/site-packages (from matplotlib) (0.11.0)
+Requirement already satisfied: fonttools>=4.22.0 in /uufs/chpc.utah.edu/common/home/u1520797/miniconda3/envs/myenv/lib/python3.8/site-packages (from matplotlib) (4.51.0)
+Requirement already satisfied: kiwisolver>=1.0.1 in /uufs/chpc.utah.edu/common/home/u1520797/miniconda3/envs/myenv/lib/python3.8/site-packages (from matplotlib) (1.4.4)
+Requirement already satisfied: numpy>=1.20 in /uufs/chpc.utah.edu/common/home/u1520797/miniconda3/envs/myenv/lib/python3.8/site-packages (from matplotlib) (1.24.3)
+Requirement already satisfied: packaging>=20.0 in /uufs/chpc.utah.edu/common/home/u1520797/miniconda3/envs/myenv/lib/python3.8/site-packages (from matplotlib) (24.1)
+Requirement already satisfied: pillow>=6.2.0 in /uufs/chpc.utah.edu/common/home/u1520797/miniconda3/envs/myenv/lib/python3.8/site-packages (from matplotlib) (10.4.0)
+Requirement already satisfied: pyparsing<3.1,>=2.3.1 in /uufs/chpc.utah.edu/common/home/u1520797/miniconda3/envs/myenv/lib/python3.8/site-packages (from matplotlib) (3.0.9)
+Requirement already satisfied: python-dateutil>=2.7 in /uufs/chpc.utah.edu/common/home/u1520797/miniconda3/envs/myenv/lib/python3.8/site-packages (from matplotlib) (2.9.0.post0)
+Requirement already satisfied: importlib-resources>=3.2.0 in /uufs/chpc.utah.edu/common/home/u1520797/miniconda3/envs/myenv/lib/python3.8/site-packages (from matplotlib) (6.4.0)
+Requirement already satisfied: zipp>=3.1.0 in /uufs/chpc.utah.edu/common/home/u1520797/miniconda3/envs/myenv/lib/python3.8/site-packages (from importlib-resources>=3.2.0->matplotlib) (3.20.2)
+Requirement already satisfied: six>=1.5 in /uufs/chpc.utah.edu/common/home/u1520797/miniconda3/envs/myenv/lib/python3.8/site-packages (from python-dateutil>=2.7->matplotlib) (1.16.0)
+Requirement already satisfied: numpy in /uufs/chpc.utah.edu/common/home/u1520797/miniconda3/envs/myenv/lib/python3.8/site-packages (1.24.3)
+Requirement already satisfied: pandas in /uufs/chpc.utah.edu/common/home/u1520797/miniconda3/envs/myenv/lib/python3.8/site-packages (2.0.3)
+Requirement already satisfied: python-dateutil>=2.8.2 in /uufs/chpc.utah.edu/common/home/u1520797/miniconda3/envs/myenv/lib/python3.8/site-packages (from pandas) (2.9.0.post0)
+Requirement already satisfied: pytz>=2020.1 in /uufs/chpc.utah.edu/common/home/u1520797/miniconda3/envs/myenv/lib/python3.8/site-packages (from pandas) (2024.1)
+Requirement already satisfied: tzdata>=2022.1 in /uufs/chpc.utah.edu/common/home/u1520797/miniconda3/envs/myenv/lib/python3.8/site-packages (from pandas) (2023.3)
+Requirement already satisfied: numpy>=1.20.3 in /uufs/chpc.utah.edu/common/home/u1520797/miniconda3/envs/myenv/lib/python3.8/site-packages (from pandas) (1.24.3)
+Requirement already satisfied: six>=1.5 in /uufs/chpc.utah.edu/common/home/u1520797/miniconda3/envs/myenv/lib/python3.8/site-packages (from python-dateutil>=2.8.2->pandas) (1.16.0)
+Requirement already satisfied: python-mnist in /uufs/chpc.utah.edu/common/home/u1520797/miniconda3/envs/myenv/lib/python3.8/site-packages (0.7)
+Requirement already satisfied: matplotlib in /uufs/chpc.utah.edu/common/home/u1520797/miniconda3/envs/myenv/lib/python3.8/site-packages (3.7.2)
+Requirement already satisfied: contourpy>=1.0.1 in /uufs/chpc.utah.edu/common/home/u1520797/miniconda3/envs/myenv/lib/python3.8/site-packages (from matplotlib) (1.0.5)
+Requirement already satisfied: cycler>=0.10 in /uufs/chpc.utah.edu/common/home/u1520797/miniconda3/envs/myenv/lib/python3.8/site-packages (from matplotlib) (0.11.0)
+Requirement already satisfied: fonttools>=4.22.0 in /uufs/chpc.utah.edu/common/home/u1520797/miniconda3/envs/myenv/lib/python3.8/site-packages (from matplotlib) (4.51.0)
+Requirement already satisfied: kiwisolver>=1.0.1 in /uufs/chpc.utah.edu/common/home/u1520797/miniconda3/envs/myenv/lib/python3.8/site-packages (from matplotlib) (1.4.4)
+Requirement already satisfied: numpy>=1.20 in /uufs/chpc.utah.edu/common/home/u1520797/miniconda3/envs/myenv/lib/python3.8/site-packages (from matplotlib) (1.24.3)
+Requirement already satisfied: packaging>=20.0 in /uufs/chpc.utah.edu/common/home/u1520797/miniconda3/envs/myenv/lib/python3.8/site-packages (from matplotlib) (24.1)
+Requirement already satisfied: pillow>=6.2.0 in /uufs/chpc.utah.edu/common/home/u1520797/miniconda3/envs/myenv/lib/python3.8/site-packages (from matplotlib) (10.4.0)
+Requirement already satisfied: pyparsing<3.1,>=2.3.1 in /uufs/chpc.utah.edu/common/home/u1520797/miniconda3/envs/myenv/lib/python3.8/site-packages (from matplotlib) (3.0.9)
+Requirement already satisfied: python-dateutil>=2.7 in /uufs/chpc.utah.edu/common/home/u1520797/miniconda3/envs/myenv/lib/python3.8/site-packages (from matplotlib) (2.9.0.post0)
+Requirement already satisfied: importlib-resources>=3.2.0 in /uufs/chpc.utah.edu/common/home/u1520797/miniconda3/envs/myenv/lib/python3.8/site-packages (from matplotlib) (6.4.0)
+Requirement already satisfied: zipp>=3.1.0 in /uufs/chpc.utah.edu/common/home/u1520797/miniconda3/envs/myenv/lib/python3.8/site-packages (from importlib-resources>=3.2.0->matplotlib) (3.20.2)
+Requirement already satisfied: six>=1.5 in /uufs/chpc.utah.edu/common/home/u1520797/miniconda3/envs/myenv/lib/python3.8/site-packages (from python-dateutil>=2.7->matplotlib) (1.16.0)
+Requirement already satisfied: numpy in /uufs/chpc.utah.edu/common/home/u1520797/miniconda3/envs/myenv/lib/python3.8/site-packages (1.24.3)
+Requirement already satisfied: pandas in /uufs/chpc.utah.edu/common/home/u1520797/miniconda3/envs/myenv/lib/python3.8/site-packages (2.0.3)
+Requirement already satisfied: python-dateutil>=2.8.2 in /uufs/chpc.utah.edu/common/home/u1520797/miniconda3/envs/myenv/lib/python3.8/site-packages (from pandas) (2.9.0.post0)
+Requirement already satisfied: pytz>=2020.1 in /uufs/chpc.utah.edu/common/home/u1520797/miniconda3/envs/myenv/lib/python3.8/site-packages (from pandas) (2024.1)
+Requirement already satisfied: tzdata>=2022.1 in /uufs/chpc.utah.edu/common/home/u1520797/miniconda3/envs/myenv/lib/python3.8/site-packages (from pandas) (2023.3)
+Requirement already satisfied: numpy>=1.20.3 in /uufs/chpc.utah.edu/common/home/u1520797/miniconda3/envs/myenv/lib/python3.8/site-packages (from pandas) (1.24.3)
+Requirement already satisfied: six>=1.5 in /uufs/chpc.utah.edu/common/home/u1520797/miniconda3/envs/myenv/lib/python3.8/site-packages (from python-dateutil>=2.8.2->pandas) (1.16.0)
+Requirement already satisfied: python-mnist in /uufs/chpc.utah.edu/common/home/u1520797/miniconda3/envs/myenv/lib/python3.8/site-packages (0.7)
+Your third_degree_polynomial function seems to be returning the expected values
+Your fitting function seems to be returning the expected values
+Your error function seems to be returning the expected values
+Your forward function seems to be returning the expected values
+Analytical and numerical gradients are the same for all parameters
+./train-images-idx3-ubyte.gz already exists. Skipping download.
+./train-labels-idx1-ubyte.gz already exists. Skipping download.
+./t10k-images-idx3-ubyte.gz already exists. Skipping download.
+./t10k-labels-idx1-ubyte.gz already exists. Skipping download.
+train-images-idx3-ubyte already unzipped. Skipping.
+train-labels-idx1-ubyte already unzipped. Skipping.
+t10k-images-idx3-ubyte already unzipped. Skipping.
+t10k-labels-idx1-ubyte already unzipped. Skipping.
+[0. 0. 0. 0. 1. 0. 0. 0. 0. 0.]
+Epoch 1/600 - Validation Accuracy: 64.94%
+Epoch 6/600 - Validation Accuracy: 78.56%
+Epoch 11/600 - Validation Accuracy: 80.34%
+Epoch 16/600 - Validation Accuracy: 81.78%
+Epoch 21/600 - Validation Accuracy: 82.62%
+Epoch 26/600 - Validation Accuracy: 82.88%
+Epoch 31/600 - Validation Accuracy: 83.36%
+Epoch 36/600 - Validation Accuracy: 83.70%
+Epoch 41/600 - Validation Accuracy: 83.92%
+Epoch 46/600 - Validation Accuracy: 84.24%
+Epoch 51/600 - Validation Accuracy: 84.34%
+Epoch 56/600 - Validation Accuracy: 84.54%
+Epoch 61/600 - Validation Accuracy: 84.86%
+Epoch 66/600 - Validation Accuracy: 85.10%
+Epoch 71/600 - Validation Accuracy: 85.20%
+Epoch 76/600 - Validation Accuracy: 85.20%
+Epoch 81/600 - Validation Accuracy: 85.34%
+Epoch 86/600 - Validation Accuracy: 85.50%
+Epoch 91/600 - Validation Accuracy: 85.50%
+Epoch 96/600 - Validation Accuracy: 85.62%
+Epoch 101/600 - Validation Accuracy: 85.70%
+Epoch 106/600 - Validation Accuracy: 85.74%
+Epoch 111/600 - Validation Accuracy: 85.98%
+Epoch 116/600 - Validation Accuracy: 86.10%
+Epoch 121/600 - Validation Accuracy: 86.06%
+Epoch 126/600 - Validation Accuracy: 86.40%
+Epoch 131/600 - Validation Accuracy: 86.30%
+Epoch 136/600 - Validation Accuracy: 86.32%
+Epoch 141/600 - Validation Accuracy: 86.44%
+Epoch 146/600 - Validation Accuracy: 86.64%
+Epoch 151/600 - Validation Accuracy: 86.72%
+Epoch 156/600 - Validation Accuracy: 86.68%
+Epoch 161/600 - Validation Accuracy: 86.98%
+Epoch 166/600 - Validation Accuracy: 87.02%
+Epoch 171/600 - Validation Accuracy: 87.14%
+Epoch 176/600 - Validation Accuracy: 87.18%
+Epoch 181/600 - Validation Accuracy: 87.18%
+Epoch 186/600 - Validation Accuracy: 87.54%
+Epoch 191/600 - Validation Accuracy: 87.42%
+Epoch 196/600 - Validation Accuracy: 87.64%
+Epoch 201/600 - Validation Accuracy: 87.68%
+Epoch 206/600 - Validation Accuracy: 87.76%
+Epoch 211/600 - Validation Accuracy: 87.98%
+Epoch 216/600 - Validation Accuracy: 87.98%
+Epoch 221/600 - Validation Accuracy: 88.10%
+Epoch 226/600 - Validation Accuracy: 88.18%
+Epoch 231/600 - Validation Accuracy: 88.28%
+Epoch 236/600 - Validation Accuracy: 88.40%
+Epoch 241/600 - Validation Accuracy: 88.50%
+Epoch 246/600 - Validation Accuracy: 88.56%
+Epoch 251/600 - Validation Accuracy: 88.62%
+Epoch 256/600 - Validation Accuracy: 88.82%
+Epoch 261/600 - Validation Accuracy: 88.72%
+Epoch 266/600 - Validation Accuracy: 88.90%
+Epoch 271/600 - Validation Accuracy: 88.92%
+Epoch 276/600 - Validation Accuracy: 88.94%
+Epoch 281/600 - Validation Accuracy: 88.90%
+Epoch 286/600 - Validation Accuracy: 89.10%
+Epoch 291/600 - Validation Accuracy: 88.98%
+Epoch 296/600 - Validation Accuracy: 89.28%
+Epoch 301/600 - Validation Accuracy: 89.22%
+Epoch 306/600 - Validation Accuracy: 89.30%
+Epoch 311/600 - Validation Accuracy: 89.22%
+Epoch 316/600 - Validation Accuracy: 89.46%
+Epoch 321/600 - Validation Accuracy: 89.46%
+Epoch 326/600 - Validation Accuracy: 89.52%
+Epoch 331/600 - Validation Accuracy: 89.48%
+Epoch 336/600 - Validation Accuracy: 89.66%
+Epoch 341/600 - Validation Accuracy: 89.66%
+Epoch 346/600 - Validation Accuracy: 89.68%
+Epoch 351/600 - Validation Accuracy: 89.64%
+Epoch 356/600 - Validation Accuracy: 89.90%
+Epoch 361/600 - Validation Accuracy: 89.84%
+Epoch 366/600 - Validation Accuracy: 89.90%
+Epoch 371/600 - Validation Accuracy: 89.94%
+Epoch 376/600 - Validation Accuracy: 90.02%
+Epoch 381/600 - Validation Accuracy: 90.08%
+Epoch 386/600 - Validation Accuracy: 90.10%
+Epoch 391/600 - Validation Accuracy: 90.06%
+Epoch 396/600 - Validation Accuracy: 90.06%
+Epoch 401/600 - Validation Accuracy: 90.10%
+Epoch 406/600 - Validation Accuracy: 90.30%
+Epoch 411/600 - Validation Accuracy: 90.32%
+Epoch 416/600 - Validation Accuracy: 90.36%
+Epoch 421/600 - Validation Accuracy: 90.40%
+Epoch 426/600 - Validation Accuracy: 90.30%
+Epoch 431/600 - Validation Accuracy: 90.44%
+Epoch 436/600 - Validation Accuracy: 90.46%
+Epoch 441/600 - Validation Accuracy: 90.46%
+Epoch 446/600 - Validation Accuracy: 90.36%
+Epoch 451/600 - Validation Accuracy: 90.42%
+Epoch 456/600 - Validation Accuracy: 90.64%
+Epoch 461/600 - Validation Accuracy: 90.56%
+Epoch 466/600 - Validation Accuracy: 90.58%
+Epoch 471/600 - Validation Accuracy: 90.56%
+Epoch 476/600 - Validation Accuracy: 90.66%
+Epoch 481/600 - Validation Accuracy: 90.62%
+Epoch 486/600 - Validation Accuracy: 90.66%
+Epoch 491/600 - Validation Accuracy: 90.72%
+Epoch 496/600 - Validation Accuracy: 90.96%
+Epoch 501/600 - Validation Accuracy: 90.88%
+Epoch 506/600 - Validation Accuracy: 90.82%
+Epoch 511/600 - Validation Accuracy: 90.84%
+Epoch 516/600 - Validation Accuracy: 90.86%
+Epoch 521/600 - Validation Accuracy: 90.94%
+Epoch 526/600 - Validation Accuracy: 91.04%
+Epoch 531/600 - Validation Accuracy: 90.98%
+Epoch 536/600 - Validation Accuracy: 91.02%
+Epoch 541/600 - Validation Accuracy: 91.08%
+Epoch 546/600 - Validation Accuracy: 90.96%
+Epoch 551/600 - Validation Accuracy: 91.06%
+Epoch 556/600 - Validation Accuracy: 91.24%
+Epoch 561/600 - Validation Accuracy: 91.20%
+Epoch 566/600 - Validation Accuracy: 91.20%
+Epoch 571/600 - Validation Accuracy: 91.18%
+Epoch 576/600 - Validation Accuracy: 91.16%
+Epoch 581/600 - Validation Accuracy: 91.08%
+Epoch 586/600 - Validation Accuracy: 91.28%
+Epoch 591/600 - Validation Accuracy: 91.26%
+Epoch 596/600 - Validation Accuracy: 91.12%
+Epoch 600/600 - Validation Accuracy: 91.28%
+
+Final Validation Accuracy: 91.280%
+Test Accuracy: 91.740%
+Job finished on Sat Feb 22 11:11:36 MST 2025

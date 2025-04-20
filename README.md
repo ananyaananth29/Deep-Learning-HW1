@@ -9,3 +9,8 @@ How to run it:
 6. sbatch slurm.sh
 7. squeue -u u1520797
 8. in the slurm.sh file go to the logs directory and see the output in the log files and the graphs are generated in png format
+
+slurm commands:
+sbatch run.slurm
+squeue -u u1520797
+scancel 3673307
